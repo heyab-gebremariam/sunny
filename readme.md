@@ -2,13 +2,8 @@
 
 Welcome to the SunnySide AFH website repository! This application is a dynamic React-based platform showcasing the offerings and lifestyle of SunnySide Adult Family Home. The website is designed to provide information about amenities, lifestyle features, menus, and more for prospective residents and their families.
 
----
 
-## About SunnySide AFH
-
-SunnySide AFH, located in south Everett, is a comfortable custom-built single-story home spanning over 4,500 square feet. Nestled on an acre surrounded by beautiful cedar trees and flowers, it offers plenty of walking and exercise space. SunnySide provides emotional and spiritual support for its residents and their families. Conveniently located minutes away from the Swedish Mill Creek Hospital and near bus lines, shopping, and restaurants, it is also just three minutes from I-5. Residents can relax in the patio area and private backyard, enjoying the serene surroundings.
-
----
+![Screenshot 2025-01-14 082924](https://github.com/user-attachments/assets/76e76637-543a-4be3-86e7-d71b9f28eb26)
 
 ## Getting Started
 
@@ -52,7 +47,6 @@ Make sure you have the following installed on your system:
    http://localhost:3000
    ```
 
----
 
 ## Website Structure
 
@@ -65,7 +59,6 @@ The website consists of the following pages:
 - **Lifestyle**: Highlights of the lifestyle and activities available to residents.
 - **Contact Us**: A contact form and details to get in touch with the team.
 
----
 
 ## Features
 
@@ -74,19 +67,5 @@ The website consists of the following pages:
 - Modular and reusable React components.
 - Can be easily converted into a mobile application using frameworks like React Native or similar tools.
 
----
 
-## Contributing
-
-We welcome contributions! Please fork the repository and submit a pull request for any changes or enhancements. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Thank you for your interest in SunnySide AFH! If you encounter any issues or have questions, feel free to open an issue in the repository.
 
