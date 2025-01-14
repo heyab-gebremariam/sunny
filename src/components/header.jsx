@@ -7,15 +7,19 @@ export const Header = () =>{
     const isActive = (path) => location.pathname === path
 
     return (
-        <header class="site-navbar light js-sticky-header site-navbar-target" role="banner">
-            <div class="container">
+        <header class="site-navbar light js-sticky-header site-navbar-target shrink" role="banner">
+            <div class="container navContainer">
             <div class="row align-items-center">
 
-                <div class="col-6 col-xl-2">
-                <div class="mb-0 site-logo"><a href="/home" class="mb-0">Elderly<span class="text-primary">.</span> </a></div>
+                <div class="col-6 col-xl-3">
+                <div class="mb-0 site-logo">
+                    <a href="/home" class="mb-0">
+                        <img src="/logo.png"/>
+                    </a></div>
+                
                 </div>
 
-                <div class="col-12 col-md-10 d-none d-xl-block">
+                <div class="col-12 col-xl-9 d-none d-xl-block">
                 <nav class="site-navigation position-relative text-right" role="navigation">
                     <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                         <li>
@@ -24,23 +28,28 @@ export const Header = () =>{
                         </a>
                         </li>
                         <li>
-                        <a href="/services" className={isActive('/services') ? 'active nav-link' : 'nav-link'}>
-                            Services
-                        </a>
-                        </li>
-                        <li>
-                        <a href="/testimonials" className={isActive('/testimonials') ? 'active nav-link' : 'nav-link'}>
-                            Testimonials
-                        </a>
-                        </li>
-                        <li>
                         <a href="/about" className={isActive('/about') ? 'active nav-link' : 'nav-link'}>
-                            About
+                            About Us
+                        </a>
+                        </li>
+                        <li>
+                        <a href="/services" className={isActive('/services') ? 'active nav-link' : 'nav-link'}>
+                            Amenities
+                        </a>
+                        </li>
+                        <li>
+                        <a href="/menu" className={isActive('/menu') ? 'active nav-link' : 'nav-link'}>
+                            Menu
+                        </a>
+                        </li>
+                        <li>
+                        <a href="/lifestyle" className={isActive('/lifestyle') ? 'active nav-link' : 'nav-link'}>
+                            Lifestyle
                         </a>
                         </li>
                         <li>
                         <a href="/contact" className={isActive('/contact') ? 'active nav-link' : 'nav-link'}>
-                            Contact
+                            Contact Us
                         </a>
                     </li>
                     <li class="social"><a href="#" class="nav-link"><span class="icon-facebook"></span></a></li>

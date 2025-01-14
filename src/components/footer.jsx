@@ -52,7 +52,7 @@ export const Footer = () =>{
                 <div class="col-md-12">
                     <div class="border-top pt-5">
                         <p class="copyright">
-                        Copyright 2025. All rights reserved  
+                        Copyright 2025. All rights reserved. SunnySide AFH, A Center Care Homes, LLC company. 
                         </p>
                         </div>
                     </div>

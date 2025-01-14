@@ -1,13 +1,13 @@
 import React from "react";
 
-export const Testimonials = () => {
+export const Menu = () => {
     return (
         <>         
         <div className="slide-item overlay testimonial-hero-section">
         <div class="container">
             <div class="row justify-content-center text-center">
             <div class="col-lg-6 align-self-center">
-                <h1 class="heading mb-3">Testimonials</h1>
+                <h1 class="heading mb-3">Menu</h1>
                 <p class="lead text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum totam alias iusto?</p>
                 <p><a href="#" class="btn btn-primary">Get In Touch</a></p>
             </div>

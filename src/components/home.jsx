@@ -9,9 +9,6 @@ export const Home = () => {
                 <div className="row">
                 <div className="col-lg-6 align-self-center">
                     <h1 className="heading mb-3">Expert Care for the Elderly</h1>
-                    <p className="lead text-white mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum totam alias iusto?
-                    </p>
                     <p>
                     <a href="#" className="btn btn-primary">Get In Touch</a>
                     </p>
@@ -54,6 +51,30 @@ export const Home = () => {
             </div>
         </div>
         </div>
+
+        
+    <div class="site-section bg-primary">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 mb-5 mb-md-0">
+            <img src="/theme/images/about.png" alt="Image" class="img-fluid" />
+            </div>
+            <div class="col-md-6 col-lg-5 ml-auto">
+            <div class="section-heading">
+                <h2 class="heading mb-3 text-white">Welcome Home</h2>
+
+                <p class="text-white">
+                SunnySide AFH located in south Everett, is a comfortable custom built single-story 4,500+ square foot home on an acre surrounded by beautiful cedar trees and flowers with plenty of walking and exercise space. We provide emotional and spiritual support for our residents and their families. We are located just minutes away from the Swedish Mill Creek Hospital, near bus lines, shopping, and restaurants as well as 3 minutes from I-5. Our residents enjoy the surroundings by relaxing in the patio area and private backyard.
+                </p>
+                <p class="text-white mb-5"><strong class="h3">&ldquo;We care for elderly people&rdquo;</strong></p>
+                <p><a href="#" class="btn btn-white">Learn More</a></p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
 
 
         <div class="site-section">
@@ -164,219 +185,6 @@ export const Home = () => {
         </div>
         </div>
     </div>
-
-    <div class="cover overlay" className="img-bg aboutUs2">
-        <div class="container">
-        <div class="row ">
-            <div class="col-lg-7 mx-auto text-center align-self-center">
-            <h1 class="mb-5 heading">Our Goal is to Make Your Life Better</h1>
-            <div class="row">
-                <div class="col-lg-4">
-                <div class="feature">
-                    <span class="img-wrap">
-                    <img src="/theme/images/svg/svg/006-elderly-3.svg" alt="Image" class="img-fluid" />
-                    </span>
-                    <h3>Expert Nursing Staff</h3>
-                </div>
-                </div>
-                <div class="col-lg-4">
-                <div class="feature">
-                    <span class="img-wrap">
-                    <img src="/theme/images/svg/svg/005-elderly-2.svg" alt="Image" class="img-fluid" />
-                    </span>
-                    <h3>Expert Nursing Staff</h3>
-                </div>
-                </div>
-                <div class="col-lg-4">
-                <div class="feature">
-                    <span class="img-wrap">
-                    <img src="/theme/images/svg/svg/004-nurse.svg" alt="Image" class="img-fluid" />
-                    </span>
-                    <h3>Expert Nursing Staff</h3>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-
-
-    <div class="site-section bg-light">
-        <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="testimonial text-center">
-                <img src="/theme/images/person_1.jpg" alt="Image" class="img-fluid" />
-                <blockquote>
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                <cite class="author">Elizabeth Anderson, Senior</cite>
-                </blockquote>
-            </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="testimonial text-center">
-                <img src="/theme/images/person_1.jpg" alt="Image" class="img-fluid" />
-                <blockquote>
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                <cite class="author">Elizabeth Anderson, Senior</cite>
-                </blockquote>
-            </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
-            <div class="testimonial text-center">
-                <img src="/theme/images/person_1.jpg" alt="Image" class="img-fluid" />
-                <blockquote>
-                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo repellendus nihil qui iure animi maxime consequuntur aliquid sed tempore, amet!</p>
-                <cite class="author">Elizabeth Anderson, Senior</cite>
-                </blockquote>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-
-    <div class="site-section">
-        <div class="container">
-        <div class="row mb-5 justify-content-center">
-            <div class="col-7 text-center">
-            <div class="heading">
-                <h2 class="text-black">Other Opportunities</h2>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, culpa.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 mb-4">
-            <div class="d-block d-flex custom-media algin-items-stretch">
-                <div class="text text-left">
-                <h3>You can live here with love</h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, commodi.</p>
-                <p><a href="#" class="btn btn-outline-white">Learn More</a></p>
-                </div>
-                <div className="img-bg aboutUs2"></div>
-            </div>
-            </div>
-            <div class="col-lg-6 mb-4">
-            <div class="d-block d-flex custom-media algin-items-stretch">
-                <div class="text text-left">
-                <h3>You can live here with love</h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, commodi.</p>
-                <p><a href="#" class="btn btn-outline-white">Learn More</a></p>
-                </div>
-                <div className="img-bg aboutUs2"></div>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-
-    <div class="site-section bg-primary">
-        <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-lg-6 mb-5 mb-md-0">
-            <img src="/theme/images/about.png" alt="Image" class="img-fluid" />
-            </div>
-            <div class="col-md-6 col-lg-5 ml-auto">
-            <div class="section-heading">
-                <h2 class="heading mb-3 text-white">Senior &amp; Elder Home Care Center</h2>
-
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique amet nostrum facere hic! Inventore cumque ipsam eum, sit sequi illum.</p>
-                <p class="mb-4 text-white">Optio ex ullam eveniet magnam molestiae laborum, dignissimos dolorum ipsam minus, ipsum vel illo aut molestias suscipit voluptatem hic voluptatibus!</p>
-                <p class="text-white mb-5"><strong class="h3">&ldquo;We care for elderly people&rdquo;</strong></p>
-                <p><a href="#" class="btn btn-white">Learn More</a></p>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-
-
-
-    <div class="site-section">
-        <div class="container">
-        <div class="row mb-5 justify-content-center">
-            <div class="col-7 text-center">
-            <div class="heading">
-                <h2 class="text-black">News &amp; Updates</h2>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, culpa.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-            <div class="blog-entry">
-                <a href="#" class="d-block">
-                <img src="/theme/images/img_1.jpg" alt="Image" class="img-fluid" />
-                </a>
-                <div class="post-meta d-flex justify-content-center">
-                <span>
-                    <span class="icon-calendar"></span>
-                    <span>23 Jul</span>
-                </span>
-                <span>
-                    <span class="icon-user"></span>
-                    <span>Admin</span>
-                </span>
-                <span>
-                    <span class="icon-comment"></span>
-                    <span>2 Comments</span>
-                </span>
-                </div>
-                <h2><a href="#">We're Providing the Quality Care</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, laudantium.</p>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="blog-entry">
-                <a href="#" class="d-block">
-                <img src="/theme/images/img_2.jpg" alt="Image" class="img-fluid" />
-                </a>
-                <div class="post-meta d-flex justify-content-center">
-                <span>
-                    <span class="icon-calendar"></span>
-                    <span>23 Jul</span>
-                </span>
-                <span>
-                    <span class="icon-user"></span>
-                    <span>Admin</span>
-                </span>
-                <span>
-                    <span class="icon-comment"></span>
-                    <span>2 Comments</span>
-                </span>
-                </div>
-                <h2><a href="#">We're Providing the Quality Care</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, laudantium.</p>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="blog-entry">
-                <a href="#" class="d-block">
-                <img src="/theme/images/img_3.jpg" alt="Image" class="img-fluid" />
-                </a>
-                <div class="post-meta d-flex justify-content-center">
-                <span>
-                    <span class="icon-calendar"></span>
-                    <span>23 Jul</span>
-                </span>
-                <span>
-                    <span class="icon-user"></span>
-                    <span>Admin</span>
-                </span>
-                <span>
-                    <span class="icon-comment"></span>
-                    <span>2 Comments</span>
-                </span>
-                </div>
-                <h2><a href="#">We're Providing the Quality Care</a></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, laudantium.</p>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-
         </>
     );
 };

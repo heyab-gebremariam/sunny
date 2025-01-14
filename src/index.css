@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.headerLink {
+  display: none;
+}
+
+
+.site-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  z-index: 1000; /* Ensures the header stays on top */
+  background-color: #fff; /* Add a background color to prevent transparency issues */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.sticky-wrapper .site-navbar .site-menu > li > a {
+  color: #000 !important; /* Always black */
+}
+
+.sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
+  color: #3c90f7 !important;
+}
+
+ul.site-menu{
+  font-size: 24px;
+}
+
+.navContainer {
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .navContainer {
+      max-width: 1540px;
+  }
+}

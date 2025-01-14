@@ -8,7 +8,10 @@ export const About = () => {
                 <div class="row justify-content-center text-center">
                 <div class="col-lg-6 align-self-center">
                     <h1 class="heading mb-3">About Us</h1>
-                    <p class="lead text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum totam alias iusto?</p>
+                    <p class="lead text-white mb-5">
+                    We Are
+                    LOVING AND CARING
+                    </p>
                     <p><a href="#" class="btn btn-primary">Get In Touch</a></p>
                 </div>
                 </div>
@@ -52,22 +55,18 @@ export const About = () => {
             <div class="col-lg-7">
             <div class="section-heading">
                 <h2 class="heading mb-3">Senior Care Center is for Your Family</h2>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore perspiciatis deleniti, maiores quia aliquam, odit iure aspernatur voluptate delectus ipsa.</p>
+                <p class="mb-5">
+                We are family with our mission is to be one big culturally diversified happy family where everyone feels loved, valued, and accepted as they are.
 
-                <div class="row">
-                <div class="col-lg-6">
-                    <img src="/theme/images/img_3.jpg" alt="Image" class="img-fluid" />
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-unstyled ul-check primary">
-                    <li>Consectetur adipisicing elit</li>
-                    <li>Voluptate delectus ipsa</li>
-                    <li>Maiores quia aliquam</li>
-                    <li>Consectetur adipisicing elit</li>
-                    <li>Voluptate delectus ipsa</li>
-                    </ul>
-                </div>
-                </div>
+                Our goal is to maintain the dignity, privacy, and individuality of each member or our family as we strive to meet their physical, emotional, and spiritual needs.
+
+                Our services respond to the individual needs of those people who require assistance with the activities of daily living, but do not need the skilled medical care provided in a nursing home.
+
+                Along with the tending loving care, we provide a clean and safe environment that makes the home a place you would want to live in.
+
+                By placing focus and attention on living an abundant life, we know that people live longer and find more meaning.
+                </p>
+                                
             </div>
             </div>
             <div class="col-lg-5">
